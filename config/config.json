@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ecomerce-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ecomerce/EcomerceWebPart.js",
+          "manifest": "./src/webparts/ecomerce/EcomerceWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EcomerceWebPartStrings": "lib/webparts/ecomerce/loc/{locale}.js"
+  }
+}
